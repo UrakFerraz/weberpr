@@ -1,0 +1,218 @@
+@media (min-width: 800px) and (max-width: 1200px) {
+
+	h1 {
+		font-size: 35px;
+	}
+
+	h2 {
+		font-size: 25px;
+	}
+
+	a, p {
+		font-size: 18px;
+	}
+	
+	.slidesUnitWrapper {
+		padding: 0px 80px;
+	}
+
+	footer {
+		grid-template-columns: 1fr;
+	}
+
+	.footerLogo svg {
+		align-self: center;
+	}
+
+	.footerEndereco span {
+		margin-bottom: 10px;
+	}
+
+		.assessoriaWrapper {
+		grid-template-columns: 1fr;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 600px) and (max-width: 799px) {
+
+	h1 {
+		font-size: 30px;
+	}
+
+	h2 {
+		font-size: 25px;
+	}
+
+	a, p {
+		font-size: 16px;
+	}
+	
+	.slidesUnitWrapper {
+		padding: 0px 70px;
+		grid-template-columns: 1fr;
+	}
+
+	.slideImgWrapper{
+		height: 350px;
+	}
+
+	.newsTextWrapper {
+		margin-top: 0;
+	}
+
+	.slideTextsBox p,
+	.newsTextWrapper p {
+		padding: 0 10px;
+		line-height: 1.2;
+	}
+
+	.maisNoticias {
+		margin-top: 0;
+		grid-gap: 30px;
+	}
+
+	footer {
+		grid-template-columns: 1fr;
+	}
+
+	.footerEnderecosWrapper {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.footerLogo svg {
+		align-self: center;
+	}
+
+	.footerEndereco span {
+		margin-bottom: 10px;
+	}
+
+	.assessoriaWrapper {
+		grid-template-columns: 1fr;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 599px) {
+
+	h1 {
+		font-size: 25px;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+
+	a, p {
+		font-size: 14px;
+	}
+
+	svg {
+		display: block;
+		position: relative;
+		box-sizing: border-box;
+	}
+
+	.logoHeaderWrapper svg {
+		width: 150px;
+	}
+	
+	.slidesUnitWrapper {
+		padding: 0px 50px;
+		grid-template-columns: 1fr;
+	}
+
+	.slideImgWrapper{
+		height: 300px;
+	}
+
+	.newsTextWrapper {
+		margin-top: 0;
+	}
+
+	.slideTextsBox p,
+	.newsTextWrapper p {
+		padding: 0 10px;
+		line-height: 1.2;
+	}
+
+	.maisNoticias {
+		margin-top: 0;
+		grid-gap: 30px;
+	}
+
+	footer {
+		grid-template-columns: 1fr;
+		padding-bottom: 90px;
+	}
+
+	.footerEnderecosWrapper {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.footerLogo svg,
+	.socialMediaWrapper {
+		align-self: center;
+	}
+	
+	.footerEndereco span {
+		margin-bottom: 10px;
+	}
+
+	.heroSliderContainer {
+		margin-top: 10px;
+	}
+
+	.slidesArrowsBtnsWrapper {
+		padding: 0 10px;
+	}
+
+	.heroImgWrapperOverflow {
+		height: 400px;
+	}
+
+	.sobreContentWrapper {
+		padding: 120px 15px 15px 15px;
+	}
+
+	.assessoriaContatoWrapper {
+		margin: 10px auto;
+		width: 100%;
+	}
+
+	.assessoriaWrapper {
+		grid-template-columns: 1fr;
+		width: 100%;
+	}
+
+	.slideImgWrapper::before {
+		left: -40px;
+	}
+}

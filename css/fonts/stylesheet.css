@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Montefiore Condensed';
+    src: url('Montefiore-BoldCondensed.eot');
+    src: url('Montefiore-BoldCondensed.eot?#iefix') format('embedded-opentype'),
+        url('Montefiore-BoldCondensed.woff2') format('woff2'),
+        url('Montefiore-BoldCondensed.woff') format('woff'),
+        url('Montefiore-BoldCondensed.ttf') format('truetype'),
+        url('Montefiore-BoldCondensed.svg#Montefiore-BoldCondensed') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montefiore Condensed';
+    src: url('Montefiore-RegularCondensed.eot');
+    src: url('Montefiore-RegularCondensed.eot?#iefix') format('embedded-opentype'),
+        url('Montefiore-RegularCondensed.woff2') format('woff2'),
+        url('Montefiore-RegularCondensed.woff') format('woff'),
+        url('Montefiore-RegularCondensed.ttf') format('truetype'),
+        url('Montefiore-RegularCondensed.svg#Montefiore-RegularCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
